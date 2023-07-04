@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 #### 1.1. MoNuSeg Datasets
 
-The original data can be downloaded in following links(the size of this dataset is 120Mb):
+The original data can be downloaded in this following links(the size of this dataset is 120Mb):
 
 - MoNuSeG Dataset(120M) - [Link (Original)](https://monuseg.grand-challenge.org/Data/)
 
@@ -72,12 +72,12 @@ Then prepare the datasets in the following format for easy use of the code:
 Training PPE with contrastive learning
 
 ```python
-python main_simsiam_natural.py –-data ‘enter train directory’
+python main_simsiam_natural.py –-data 'enter train directory'
 ```
 
 ####  2.2. Training
 
-You can train to get your own model. It should be noted that using the pre-trained model in the step 2.1 will get better performance.
+You can train to obtain your own model. It should be noted that using the pre-trained model in the step 2.1 will get better performance.
 
 ```python
 python train_model.py
@@ -102,6 +102,12 @@ Second, the pre-trained PPE can be downloaded in following links:
 The GPU used in our experiments is NVIDIA T1000 (8G) and the cuda version is 11.1. The hyper-parameters are clarified in ```Config_Natural.py``` and  ```Config.py```. First, users can use the pre-trained PPE weights we provided. Second, users can follow the instruction in  ```Config.py``` to run the ```train_model.py``` or ```test.model.py```.
 
 ### 5. Results
+<p align='center'>  
+  <img src='image/result1.png' />
+  <img src='image/result2.png' />
+  <img src='image/result3.png' />
+</p>
+
 
 ## Reference
 
