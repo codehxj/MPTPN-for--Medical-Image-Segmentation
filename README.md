@@ -31,6 +31,10 @@ The original data can be downloaded in this following links(the size of this dat
 
 - MoNuSeG Dataset(120M) - [Link (Original)](https://monuseg.grand-challenge.org/Data/)
 
+The organized dataset can be downloaded in following links:
+
+- MoNuSeg - Link([LViT/datasets/MoNuSeg at main · HUANGLIZI/LViT · GitHub](https://github.com/HUANGLIZI/LViT/tree/main/datasets/MoNuSeg))
+  
 #### 1.2. Format Preparation
 
 Then prepare the datasets in the following format for easy use of the code:
